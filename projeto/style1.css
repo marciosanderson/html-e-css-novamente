@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*
+    paleta de cores:
+    4700cb
+    7354ad
+    linear-gradient(to top, #33018f, #3c1b7a)
+*/
+
+#all {
+    background-image: linear-gradient(to right, #33018f, #3c1b7a);
+    height: 100%;
+
+}
+
+.arc {
+    text-align: center;
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+#text {
+    color: white;
+}

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #33018f, #3c1b7a);
+    background-image: url(wallpapersden.com_minecraft-dungeons-4k_2560x1700.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+    color: red;
+}
+
+.arc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 230px;
+    height: 90px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.text {
+    color: white;
+    text-decoration: none;
+}
+
+#centro {
+    margin-top: 30px;
+    margin-left: 560px;
+}
